@@ -1,0 +1,7 @@
+﻿  vecteur.cpp
+cercle.obj : error LNK2019: symbole externe non résolu "public: __cdecl Forme::Forme(int,int)" (??0Forme@@QEAA@HH@Z) référencé dans la fonction "public: __cdecl cercle::cercle(int,int,int)" (??0cercle@@QEAA@HHH@Z)
+rectangle.obj : error LNK2001: symbole externe non résolu "public: __cdecl Forme::Forme(int,int)" (??0Forme@@QEAA@HH@Z)
+cercle.obj : error LNK2019: symbole externe non résolu "public: virtual __cdecl Forme::~Forme(void)" (??1Forme@@UEAA@XZ) référencé dans la fonction "public: virtual __cdecl cercle::~cercle(void)" (??1cercle@@UEAA@XZ)
+rectangle.obj : error LNK2001: symbole externe non résolu "public: virtual __cdecl Forme::~Forme(void)" (??1Forme@@UEAA@XZ)
+couche.obj : error LNK2019: symbole externe non résolu "public: void __cdecl Forme::translater(int,int)" (?translater@Forme@@QEAAXHH@Z) référencé dans la fonction "public: bool __cdecl Couche::translate(int,int)" (?translate@Couche@@QEAA_NHH@Z)
+debug\\testGraphicusGUI.exe : fatal error LNK1120: 3 externes non résolus
